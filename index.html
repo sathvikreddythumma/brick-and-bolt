@@ -17,12 +17,139 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ac42c3b1f7.js" crossorigin="anonymous"></script>-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="globals.css">
     <title>Brick and Bolt</title>
 </head>
 
 <body>
+    <div class="bg1">
+        <div class="bg2">
+            <h class="heading_how_to_work">How it works</h>
+            <p class="para_how_to_work">Our house construction steps are simple and easy to understand: Plan - Build - Track - Settle in.</p>
+            <img class="image1" src="List.png"/>
+            <br/>
+            <img class="image2" src="Rectangle 1.png"/>
+            <br/>
+            <div class="container">
+                <h1 class="container_heading">02 Meet our Experts</h1>
+                <p class="container_para">Our experts visit you to take all the requirements and submit exhaustive specifications.</p>
+            </div>
+            <br/>
+            <button class="button_start_construct" id="button_construct" data-toggle="modal" data-target="#exampleModalCenter" onclick="click()">Start Your Construction</button>
+            <!-- Button trigger modal -->
+    <!--<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+    Launch demo modal
+  </button>-->
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <!--<h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>-->
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body pt-1">
+          <h5 class="book_free">Book FREE Appointment</h5>
+          <h6 class="rates">For Best Quality Construction At Affordable Rates</h6>
+          <form class="form_class">
+            <input class="input" type="text" placeholder="Full Name*">
+       
+           <!-- <div class="box">
+            <img src="Image+Shadow.png" class="ind_img"/>
+            <select class="trans" id="country-code">
+                <option value="+91"> +91</option>
+                
+            </select>
+           
+        </div>-->
+        <label for="mobile"></label>
+            <div class="input-container m-1">
+              <!--<img src="Image+Shadow.png" class="ind_img"/>-->
+                <select id="country-code" class="pl-3">
+                    <option class="c">+91</option>
+                    
+                </select>
+                <input type="tel" id="mobile" name="mobile" placeholder="Mobile Number*" class="p-2" required>
+            </div>
+       
+     
+            <input class="input" type="text" placeholder="Email*"><br/>
+            <input class="input" type="text" placeholder="Location of your plot*"><br/><br/>
+            <div class="ml-2 mr-2">
+            <button class="button_start_construct-1" style="width: 430px"  data-toggle="modal" data-target="#exampleModalCenter" >Start Your Construction</button>
+          <p class="para">*By submitting this form, I confirm that I have read and agreed to accept Brick&Bolt's<span class="policy"> privacy policy</span></p>
+              </div>
+              <div class="main-align">
+              <div class="align">
+                <img src="home.svg.png" class="images mb-2"/>
+                <span class="span-element">4500+</span>
+                <p class="">Homes Built</p>
+              </div>
+              <div class="align">
+                <img src="check.svg.png" class="images mb-2"/>
+                <span class="span-element">100%</span>
+                <p class="">Money Saftey</p>
+              </div>
+              <div class="align">
+                <img src="quality-control.svg.jpg" class="quality-image mb-2"/>
+                <span class="span-element">470+</span>
+                <p class="">Quality Checks</p>
+              </div>
+              </div>
+        </form>
+          <div>
+    </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+        </div>
+    </div>
+    <div class="bg3">
+        <div class="whychooseus">
+            <h1 class="heading_how_to_work">Why Choose Us?</h1>
+            <div class="icons-container">
+              <div class="creative">
+                <img src="Group-2-1.png.jpg" class="img-creative"/>
+                <p class="p-creative">Creative design solutions</p>
+              </div>
 
+              <div class="creative">
+                <img src="Group-1-1.png.png" class="img-creative"/>
+                <p class="p-creative">Premium quality materials</p>
+              </div>
+
+              <div class="creative">
+                <img src="Group-5.png.jpg" class="img-creative"/>
+                <p class="p-creative">On-time delivery</p>
+              </div>
+
+              <div class="creative">
+                <img src="Group-3-1.png.jpg" class="img-creative"/>
+                <p class="p-creative">Sustainable options</p>
+              </div>
+
+              <div class="creative">
+                <img src="Group-3-1.png.jpg" class="img-creative"/>
+                <p class="p-creative">Pricing transparency</p>
+              </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="globals.js"></script>
 </body>
 
 </html>
