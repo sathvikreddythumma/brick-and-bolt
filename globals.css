@@ -541,8 +541,8 @@ align-self: flex-end;
     position: relative;
     display: inline-block;
     margin-top: 0px;
-    width: 75vw;
-    padding: 5px;
+    width: 76vw;
+    padding: 0px;
   }
   
   .dropdown-content {
